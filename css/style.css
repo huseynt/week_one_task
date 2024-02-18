@@ -1,1 +1,84 @@
-/*# sourceMappingURL=style.css.map */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+}
+
+header {
+  z-index: 999;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 200px;
+  transition: 0.5s ease;
+}
+header .brand {
+  color: #252B42;
+  font-size: 1.5em;
+  font-weight: 700;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+header .navigation {
+  position: relative;
+}
+header .navigation .navigation-items .item {
+  position: relative;
+  color: #737373;
+  font-size: 1em;
+  font-weight: 500;
+  text-decoration: none;
+  margin-left: 30px;
+  transition: 0.3s ease;
+}
+
+.home {
+  padding: 100px 200px;
+  position: relative;
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  background-image: url(../photosv/qiz.jpg);
+}
+.home .content {
+  z-index: 888;
+  width: 70%;
+  margin-top: 50px;
+}
+.home .content .abconp {
+  font-size: 1em;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.1px;
+  line-height: 24px;
+  margin-bottom: 40px;
+  color: #252B42;
+}
+.home .content .aboutus {
+  font-size: 4em;
+  font-weight: 900;
+  line-height: 80px;
+  color: #252B42;
+}
+.home .content .blablabla {
+  margin-bottom: 65px;
+  color: #737373;
+}
+.home .content .btn {
+  width: 192px;
+  height: 90px;
+  background-color: #23A6F0;
+  color: #fff;
+  font-size: 1em;
+  font-weight: 500;
+  border-radius: 2px;
+  padding: 15px 35px;
+  text-decoration: none;
+}/*# sourceMappingURL=style.css.map */
