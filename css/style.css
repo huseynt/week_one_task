@@ -1,84 +1,112 @@
-* {
+body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   font-family: "Montserrat", sans-serif;
+  background-color: #fff;
 }
 
-header {
-  z-index: 999;
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
+.head {
+  height: 91px;
+  width: 70%;
+  margin: 0 auto;
+  padding: 0 15%;
   display: flex;
-  justify-content: space-between;
+  gap: 60px;
   align-items: center;
-  padding: 15px 200px;
-  transition: 0.5s ease;
+  justify-content: space-between;
+  background-color: #fff;
 }
-header .brand {
+.head .logo {
   color: #252B42;
-  font-size: 1.5em;
-  font-weight: 700;
-  text-transform: uppercase;
+}
+.head .navlist .navlist__items {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+.head .navlist .navlist__items .lil {
+  display: inline-block;
+  margin-right: 10px;
   text-decoration: none;
 }
-header .navigation {
-  position: relative;
-}
-header .navigation .navigation-items .item {
-  position: relative;
+.head .navlist .navlist__items .lil .a {
+  text-decoration: none;
   color: #737373;
-  font-size: 1em;
-  font-weight: 500;
-  text-decoration: none;
-  margin-left: 30px;
-  transition: 0.3s ease;
+}
+.head .loginmember {
+  display: flex;
+  align-items: center;
+}
+.head .loginmember .login {
+  margin-right: 10px;
+}
+.head .loginmember .login .lo {
+  border: none;
+  background-color: transparent;
+  color: #23A6F0;
+  font-size: 14px;
+  font-weight: 700;
+  letter-spacing: 0.2px;
+}
+.head .loginmember .become {
+  margin-left: 10px;
+}
+.head .loginmember .become .be {
+  background-color: #23A6F0;
+  color: #fff;
+  width: 214px;
+  height: 52px;
+  border-radius: 5px;
+  font-size: 14px;
+  letter-spacing: 0.2px;
+  border: none;
 }
 
 .home {
-  padding: 100px 200px;
-  position: relative;
-  width: 100%;
-  min-height: 100vh;
   display: flex;
-  justify-content: center;
-  flex-direction: column;
-  background-image: url(../photosv/qiz.jpg);
+  justify-content: flex-start;
+  align-items: center;
+  width: 70%;
+  margin: 0 auto;
+  padding: 0 15%;
+  height: 700px;
+  background-image: url("../assets/qiz.jpg");
+  background-repeat: no-repeat;
+  background-position: right;
+  background-color: #f7f7f7;
 }
 .home .content {
-  z-index: 888;
-  width: 70%;
-  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
 }
 .home .content .abconp {
-  font-size: 1em;
-  font-weight: 700;
-  text-transform: uppercase;
-  letter-spacing: 0.1px;
-  line-height: 24px;
-  margin-bottom: 40px;
   color: #252B42;
+  font-size: 16px;
+  font-weight: 700;
+  margin: 0;
 }
 .home .content .aboutus {
-  font-size: 4em;
-  font-weight: 900;
-  line-height: 80px;
   color: #252B42;
+  font-size: 58px;
+  font-weight: 700;
 }
-.home .content .blablabla {
-  margin-bottom: 65px;
-  color: #737373;
+.home .content .paragraf {
+  font-size: 20px;
+  max-width: 376px;
+  font-weight: 400;
+  margin: 0;
 }
 .home .content .btn {
-  width: 192px;
-  height: 90px;
   background-color: #23A6F0;
-  color: #fff;
-  font-size: 1em;
-  font-weight: 500;
-  border-radius: 2px;
-  padding: 15px 35px;
+  font-size: 14px;
+  font-weight: 700;
   text-decoration: none;
+  color: #f7f7f7;
+  border-radius: 5px;
+  padding: 15px 40px 15px 40px;
+  height: 52px;
+  width: 192px;
+  border: none;
 }/*# sourceMappingURL=style.css.map */
