@@ -23,17 +23,14 @@ body {
 .head .logo {
   color: #252B42;
 }
-.head .navlist .navlist__items {
+.head .navlist__items {
   list-style-type: none;
   padding: 0;
   margin: 0;
 }
-.head .navlist .navlist__items .lil {
+.head .navlist__items .lil {
   display: inline-block;
   margin-right: 10px;
-  text-decoration: none;
-}
-.head .navlist .navlist__items .lil .a {
   text-decoration: none;
   color: #737373;
 }
@@ -51,7 +48,7 @@ body {
   text-decoration: none;
 }
 .head .loginmember .become {
-  margin-left: 10px;
+  margin-left: 15px;
 }
 .head .loginmember .become .be {
   background-color: #23A6F0;
@@ -93,10 +90,11 @@ body {
   color: #252B42;
   font-size: 58px;
   font-weight: 700;
+  margin: 0;
 }
 .home .content .paragraf {
-  font-size: 20px;
   max-width: 376px;
+  font-size: 20px;
   font-weight: 400;
   margin: 0;
 }
