@@ -16,21 +16,21 @@ body {
   align-items: center;
   justify-content: space-between;
   background-color: #fff;
+  position: fixed;
+  top: 0;
+  left: 0;
 }
 .head .logo {
   color: #252B42;
 }
-.head .navlist .navlist__items {
+.head .navlist__items {
   list-style-type: none;
   padding: 0;
   margin: 0;
 }
-.head .navlist .navlist__items .lil {
+.head .navlist__items .lil {
   display: inline-block;
   margin-right: 10px;
-  text-decoration: none;
-}
-.head .navlist .navlist__items .lil .a {
   text-decoration: none;
   color: #737373;
 }
@@ -38,19 +38,17 @@ body {
   display: flex;
   align-items: center;
 }
-.head .loginmember .login {
-  margin-right: 10px;
-}
-.head .loginmember .login .lo {
+.head .loginmember .lo {
   border: none;
   background-color: transparent;
   color: #23A6F0;
   font-size: 14px;
   font-weight: 700;
   letter-spacing: 0.2px;
+  text-decoration: none;
 }
 .head .loginmember .become {
-  margin-left: 10px;
+  margin-left: 15px;
 }
 .head .loginmember .become .be {
   background-color: #23A6F0;
@@ -61,6 +59,7 @@ body {
   font-size: 14px;
   letter-spacing: 0.2px;
   border: none;
+  cursor: pointer;
 }
 
 .home {
@@ -68,7 +67,7 @@ body {
   justify-content: flex-start;
   align-items: center;
   width: 70%;
-  margin: 0 auto;
+  margin: 91px auto;
   padding: 0 15%;
   height: 700px;
   background-image: url("../assets/qiz.jpg");
@@ -91,10 +90,11 @@ body {
   color: #252B42;
   font-size: 58px;
   font-weight: 700;
+  margin: 0;
 }
 .home .content .paragraf {
-  font-size: 20px;
   max-width: 376px;
+  font-size: 20px;
   font-weight: 400;
   margin: 0;
 }
@@ -109,6 +109,7 @@ body {
   height: 52px;
   width: 192px;
   border: none;
+  cursor: pointer;
 }
 
 .problems {
