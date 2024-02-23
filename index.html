@@ -14,27 +14,26 @@
   <body>
 
 
-    <!-- kommentler ? class-lar  -->
-    <header class="head">
-        <h3 class="logo">Bandage</h3> 
-          
-        <nav class="navlist__items">
-            <a class="lil" href="#">Home</a>
-            <a class="lil" href="#">Product</a>
-            <a class="lil" href="#">Pricing</a>
-            <a class="lil" href="#">Contact</a>
+    <!--------------- header ----------------->
+    <header class="header">
+        <!-- left -->
+        <a class="header_head" href="#">Bandage</a> 
+        <!-- center -->
+        <nav class="header_nav">
+            <a class="header_nav-link" href="#">Home</a>
+            <a class="header_nav-link" href="#">Product</a>
+            <a class="header_nav-link" href="#">Pricing</a>
+            <a class="header_nav-link" href="#">Contact</a>
         </nav>
-        
+        <!-- right -->
+        <div class="header_right">
+            <a class="header_right-login" href="#">login</a>
 
-        <div class="loginmember">
-            <a class="lo" href="#">login</a>
-
-            <div class="become">
-                <button class="be">
-                    <span>Become a member</span>
-
-                    <span>
-                        <img src="./assets/Vector (2).png" alt="icon" />
+            <div class="header_right-become">
+                <button class="header_right-become-button">
+                    <span class="header_right-become-button-text">Become a member</span>
+                    <span class="header_right-become-button-icon">
+                        <img class="header_right-become-button-icon-img" src="./assets/Vector (2).png" alt="icon"/>
                     </span>
                 </button>
             </div>
@@ -43,22 +42,21 @@
 
 
 
-    <!--  -->
-    <main>
+    <!-------- main --------->
+    <main class="main">
 
-        <!--  -->
-        <section class="home">
-            <div class="content">
-              <h5 class="abconp">ABOUT COMPANY</h5>
+        <!-- about home section -->
+        <section class="home about">
 
-              <h2 class="aboutus">ABOUT US</h2>
-
-              <p class="paragraf">We know how large objects will act, but things on a small scale
-              </p>
-
-              <button class="btn" href="">Get Quote Now</button>
+            <!-- left block -->
+            <div class="about_content">
+              <h5 class="about_content-up">ABOUT COMPANY</h5>
+              <h2 class="about_content-head">ABOUT US</h2>
+              <p class="about_content-paragraph">We know how large objects will act, but things on a small scale</p>
+              <button class="about_content-button" href="#">Get Quote Now</button>
             </div>
-          </section>
+
+        </section>
 
         <!-- problems section -->
         <section class="problems">
@@ -190,22 +188,25 @@
             </div>
         </section>
 
-         <!--companies are here now-->
-        <section class="umumi">
-           <div class="yazilar"> <h2 class="blue">Big Companies Are Here</h2>
-                <p class="brown">Problems trying to resolve the conflict between <br>
-                 the two major realms of Classical physics: Newtonian mechanics  </p>
-        </div >
-            <div class="motcontainer">
-            <div><img src="./assets/br1.png" alt=""></div>
-            <div><img src="./assets/br2.png" alt=""></div>
-            <div><img src="./assets/br3.png" alt=""></div>
-            <div><img src="./assets/br4.png" alt=""></div>
-            <div><img src="./assets/br5.png" alt=""></div>
-            <div><img src="./assets/br6.png" alt=""></div>
+        <!------ companies section ------>
+        <section class="companies">
+
+            <!-- section up  -->
+            <div class="companies_up">
+                <h2 class="companies_up-head">Big Companies Are Here</h2>
+                <p class="companies_up-paragraph">Problems trying to resolve the conflict between <br>the two major realms of Classical physics: Newtonian mechanics  </p>
+            </div >
+
+            <!-- section down -->
+            <div class="companies_down">
+                <div class="companies_down-block"><img class="companies_down-block-img" src="./assets/br1.png" alt="icon"></div>
+                <div class="companies_down-block"><img class="companies_down-block-img" src="./assets/br2.png" alt="icon"></div>
+                <div class="companies_down-block"><img class="companies_down-block-img" src="./assets/br3.png" alt="icon"></div>
+                <div class="companies_down-block"><img class="companies_down-block-img" src="./assets/br4.png" alt="icon"></div>
+                <div class="companies_down-block"><img class="companies_down-block-img" src="./assets/br5.png" alt="icon"></div>
+                <div class="companies_down-block"><img class="companies_down-block-img" src="./assets/br6.png" alt="icon"></div>
             </div>
         </section>
-          <!--bitis--->
         
 
         <!-- Grow section -->
@@ -404,10 +405,9 @@
 
 
             <!-- footer down parahraph -->
-            <p class="footer-down">Made With Love By Figmaland All Right Reserved</p>
+            <p class="footer-down">Made Bandage by Vugar and Huseyn</p>
         </footer>
 
     </main>
-
   </body>
 </html>
