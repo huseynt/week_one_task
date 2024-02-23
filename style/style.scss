@@ -709,3 +709,34 @@ body {
        }
    }
 }
+
+
+.umumi{
+    background-color: #FAFAFA;
+    width: 70%;
+    padding: 0 15%;
+    height: 479px;
+    .yazilar{
+        text-align: center;
+        padding-top: 50px;
+        .blue{
+            color: #252B42;
+            font-size: 40px;
+            font-weight: 700;
+        }
+    .brown{
+        color: #737373;
+        font-size: 14px;
+        font-weight: 400;
+    }
+    }
+
+    .motcontainer{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: flex-end;
+        gap: 60px;
+        padding-top: 60px;
+    }
+}

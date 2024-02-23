@@ -580,4 +580,33 @@ body {
 }
 .meet__container-card-down-list-item-img:hover {
   transform: scale(1.1);
+}
+
+.umumi {
+  background-color: #FAFAFA;
+  width: 70%;
+  padding: 0 15%;
+  height: 479px;
+}
+.umumi .yazilar {
+  text-align: center;
+  padding-top: 50px;
+}
+.umumi .yazilar .blue {
+  color: #252B42;
+  font-size: 40px;
+  font-weight: 700;
+}
+.umumi .yazilar .brown {
+  color: #737373;
+  font-size: 14px;
+  font-weight: 400;
+}
+.umumi .motcontainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: flex-end;
+  gap: 60px;
+  padding-top: 60px;
 }/*# sourceMappingURL=style.css.map */
